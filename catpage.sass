@@ -1,3 +1,5 @@
+@import 'bourbon/bourbon'
+
 #header, #content
 	font-family: sans-serif !important
 	font-size: 18px !important
@@ -63,7 +65,7 @@
 	background-color: white
 	padding: 0px
 	align-self: stretch
-	flex-grow: 1
+	+flex-grow(1)
 	font-size: 14px
 	span 
 		font-style: italic
@@ -99,9 +101,9 @@
 .left
 	border-right: 2px solid #aaa
 .cbox 
-	display: flex
-	flex-flow: row wrap
+	+display(flex)
+	+flex-flow(row wrap)
 	height: 6500px
-	align-items: baseline
+	+align-items(baseline)
 	padding: 20px 0
-	align-content: flex-start
+	+align-content(flex-start)

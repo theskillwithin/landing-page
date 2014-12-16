@@ -1,7 +1,3 @@
-html {
-  width: 100%;
-  height: 100%; }
-
 .category-title h1 {
   display: none; }
 
@@ -49,52 +45,28 @@ html {
   margin-right: 1px;
   text-align: center;
   vertical-align: center;
-  -webkit-flex-grow: 1;
-  -moz-flex-grow: 1;
   flex-grow: 1;
-  -ms-flex-positive: 1;
   -webkit-flex-grow: 1;
-  -webkit-box-orient: row nowrap;
-  -moz-box-orient: row nowrap;
-  box-orient: row nowrap;
-  -webkit-flex-direction: row nowrap;
-  -moz-flex-direction: row nowrap;
-  flex-direction: row nowrap;
-  -ms-flex-direction: row nowrap;
-  -webkit-box-pack: justify;
-  -moz-box-pack: justify;
-  box-pack: justify;
-  -webkit-justify-content: space-between;
-  -moz-justify-content: space-between;
-  -ms-justify-content: space-between;
-  -o-justify-content: space-between;
   justify-content: space-between;
-  -ms-flex-pack: justify;
-  -webkit-align-content: space-between;
-  -moz-align-content: space-between;
   align-content: space-between;
-  -ms-flex-line-pack: justify;
-  -webkit-flex-flow: row;
-  -moz-flex-flow: row;
   flex-flow: row;
   color: white; }
   .pinkbarmenu li:last-child {
     margin-right: 0px; }
   .pinkbarmenu li:hover {
     background-color: pink; }
-.pinkbarmenu a {
-  margin-left: -7px;
-  padding: 6px;
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase; }
+  .pinkbarmenu li a {
+    margin-left: -7px;
+    padding: 6px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase; }
 .pinkbarmenu ul {
-  padding: 1px;
-  box-sizing: border-box;
-  width: 800px;
+  padding: 1px 1px;
+  width: 796px;
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -140,10 +112,4 @@ html {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  box-orient: horizontal;
-  -webkit-flex-direction: row;
-  -moz-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-direction: row; }
+  flex-direction: row; }
