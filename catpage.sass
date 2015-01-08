@@ -43,6 +43,17 @@
 		list-style: initial
 	img
 		display: block
+.flex
+	+display(flex)
+	+flex-wrap(wrap)
+	justify-content: space-around
+	> div
+		width: 50%
+		outline: 1px solid grey
+		+flex-grow(1)
+		+flex-shrink(1)
+		+flex-basis(auto)
+
 #shop
 	margin: auto
 	text-align: center
