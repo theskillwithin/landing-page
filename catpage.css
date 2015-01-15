@@ -162,4 +162,14 @@
   align-content: flex-start;
   -ms-flex-line-pack: start; }
 
+.row {
+  border: 1px solid pink;
+  clear: both;
+  height: auto;
+  overflow: auto;
+  margin-top: 5px; }
+  .row img {
+    margin: 10px 10px;
+    float: left; }
+
 /*# sourceMappingURL=catpage.css.map */
