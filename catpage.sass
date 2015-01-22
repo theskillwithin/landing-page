@@ -7,6 +7,13 @@
 #header, #content
 	a
 		color: #EC5189
+		font-family: "proxima-nova"
+	p
+		font-family: "raleway"
+	h1, h2, h3, h4, h5, h6
+		font-family: "proxima-nova"
+		font-weight: bold
+
 
 #back
 	font-size: 20px
@@ -74,7 +81,8 @@
 .box
 	width: 40%
 	background-color: white
-	padding: 0px
+	padding: 5px
+	margin-bottom: 5px
 	align-self: stretch
 	+flex-grow(1)
 	font-size: 14px
@@ -87,13 +95,32 @@
 	h3 
 		margin: 0px null
 	p 
-		height: 181px
-		margin: 0px
+		margin: 5px 0px
 		color: grey
 		font-weight: 500
 		line-height: 20px !important
 		letter-spacing: .4px !important
 		word-spacing: 1.5px !important
+	q
+		display: block
+		font-size: 12px
+		font-family: "proxima-nova"
+.viewhere
+	margin: 8px
+	padding: 8px
+	background-color: #ed548e
+	width: 75px
+	float: left
+	border: 1px solid #ed548e
+	border-radius: 5px
+	text-align: center
+	text-decoration: none
+	&:hover
+		background-color: pink
+#viewhere
+	a
+		color: white
+		font-weight: bold
 
 .left:after
 	content: ""

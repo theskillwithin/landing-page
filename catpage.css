@@ -3,7 +3,13 @@
   font-size: 18px !important; }
 
 #header a, #content a {
-  color: #EC5189; }
+  color: #EC5189;
+  font-family: "proxima-nova"; }
+#header p, #content p {
+  font-family: "raleway"; }
+#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+  font-family: "proxima-nova";
+  font-weight: bold; }
 
 #back {
   font-size: 20px;
@@ -92,7 +98,8 @@
 .box {
   width: 40%;
   background-color: white;
-  padding: 0px;
+  padding: 5px;
+  margin-bottom: 5px;
   align-self: stretch;
   -webkit-flex-grow: 1;
   -moz-flex-grow: 1;
@@ -108,13 +115,33 @@
   .box h3 {
     margin: 0px; }
   .box p {
-    height: 181px;
-    margin: 0px;
+    margin: 5px 0px;
     color: grey;
     font-weight: 500;
     line-height: 20px !important;
     letter-spacing: 0.4px !important;
     word-spacing: 1.5px !important; }
+  .box q {
+    display: block;
+    font-size: 12px;
+    font-family: "proxima-nova"; }
+
+.viewhere {
+  margin: 8px;
+  padding: 8px;
+  background-color: #ed548e;
+  width: 75px;
+  float: left;
+  border: 1px solid #ed548e;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none; }
+  .viewhere:hover {
+    background-color: pink; }
+
+#viewhere a {
+  color: white;
+  font-weight: bold; }
 
 .left:after {
   content: "";
