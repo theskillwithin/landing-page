@@ -4,11 +4,17 @@
 
 #header a, #content a {
   color: #EC5189;
-  font-family: "proxima-nova"; }
+  font-family: "proxima-nova";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 #header p, #content p {
-  font-family: "raleway"; }
+  font-family: "raleway";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 #header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
   font-family: "proxima-nova";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-weight: bold; }
 
 #back {
